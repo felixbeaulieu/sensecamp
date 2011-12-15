@@ -206,3 +206,10 @@ h2{
 #who .fb{
 	margin-top: 25px;
 }
+
+.github{
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	border: 0; 
+}
