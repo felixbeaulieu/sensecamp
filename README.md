@@ -1,4 +1,4 @@
-* Oh, hello fellow Coder and Social Business Enthusiast *
+*Oh, hello fellow Coder and Social Business Enthusiast*
 
 This is the official HTML/CSS for the SenseCamp Homepage. Feel free to grab it if you want to organize your own event somewhere in the world. Everything is open source and licensed under Creative Commnons BY-NC.
 
