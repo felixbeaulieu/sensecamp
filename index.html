@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<!-- 
+
+	Sense Camp Hypertext,
+	Design and Code by midnightbureau.com
+	free to share and distribute under creative commons BY-NC 3.0
+	Emanuel Schwarz, 2011 
+	
+	Feel free to contact me: eschwarz@midnightbureau.com
+
+-->
+
+<html>
+
+	<head>
+		
+		<title>sense camp &#8211; a barcamp for berlin's social business scene</title> 
+		
+		 <meta name="description" content="SenseCamp is a Barcamp dedicated to social business and social entrepreneurship: It will take place on the 21st of Januray 2012 in Berlin. RSVP now!">
+		
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="http://sense-camp.org/style.css">
+		<link rel="icon" type="image/png" href="icon.png" />
+		
+		<script type="text/javascript" src="http://use.typekit.com/ptc6qpg.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		
+		<script type="text/javascript" src="http://sense-camp.org/js/jquery.js"></script>
+		<script type="text/javascript">
+		
+$(document).ready(function(){
+  $('a[href*=#]').click(function() {
+ if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+ && location.hostname == this.hostname) {
+   var $target = $(this.hash);
+   $target = $target.length && $target
+   || $('[name=' + this.hash.slice(1) +']');
+   if ($target.length) {
+  var targetOffset = $target.offset().top;
+  $('html,body')
+  .animate({scrollTop: targetOffset}, 450);
+    return false;
+   }
+ }
+  });
+});
+	</script>
+	
+   <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;sensor=false&amp;key=ABQIAAAA4Zxdmc7EsoO3HrK4149G6RSggzvmI7fKs5qtFwBApdGq5q8QYxTf_z-jcEDqybz425ssX3elFXNEXA" type="text/javascript"></script>  
+  <script language="Javascript" type="text/javascript" src="http://sense-camp.org/js/maps.js"></script>
+		
+		
+	</head>
+		
+	<body onload="initialize()" onunload="GUnload()">
+
+	
+		<div id="columnleftwrap">
+		
+			<div id="columncontent">
+			
+				<div id="teaser">
+					<a href=""><h1>Sense Camp</h1></a>
+					<p>Welcome to Berlin's first <span class="orange">Barcamp for Social Entrepreneurship</span>.</p>				
+				</div>
+				
+				<div id="teiler">
+				</div>
+				
+				<div id="navi">
+					<ol>
+						<a href="#what"><li>About</li></a>
+						<a href="#where"><li>Where & When</li></a>
+						<a href="#who"><li>Who</li></a>
+					</ol>
+				</div>
+			
+				<div id="teiler">
+				</div>
+				
+				<p>The Event will take place on the <span class="orange">21st of Januray 2012</span>. It's free, but available space is limited. So save your ticket now!</p>
+				
+				<div id="button">
+					<a href="http://sensecamp.eventbrite.com">RSVP HERE NOW!</a>
+				</div>
+				
+			</div>
+		
+		</div>	
+
+		<div id="columnrightwrap">
+		
+			<div id="columnrightcontent">
+				
+				<div id="what">
+				
+					<h2>What</h2>
+					
+					<p>SenseCamp is a Barcamp dedicated to social business and social entrepreneurship: It brings together social entrepreneurs, social business enthusiasts and others for one full day of talks, workshops and networking.</p>
+ 
+					<p>We want to promote social entrepreneurship, highlight local social projects and strengthen the Berlin based community of social innovators. The camp is the unique chance to share your knowledge and learn from others. We want to create a place where you can discover and exchange new ideas, insights and experiences. We do this in order to motivate people for social entrepreneurship!</p>
+					
+					<p>In the end it's all about fun, knowledge and sharing! We hope you join us!</p>
+				</div>
+				
+				<div id="where">
+				
+					<h2>Where</h2>
+					
+					<p>The Event is taking place at the Social Impact Lab (Erkelenzdamm 59) in Berlin at January 21st 2012. You can find the directions below.</p>					
+					</div>
+
+											
+				<div id="map_canvas" style="width: 315px; height: 315px">
+				</div>
+				
+
+				<div id="who">
+				
+					<h2>Who</h2>
+					
+					<p>SenseCamp is an open event designed and produced by an enthusiastic gang of Social Entrepreneurs. The core team is composed of <a href="http://we.makesense.org/">MakeSense</a>, <a href="http://www.betterworld-network.org/">BetterWorld Network</a>, <a href="http://knowable.org/">knowable.org</a> and the <a href="http://www.iq-consult.com/de/projekte/social-impact-lab">Social Impact Lab</a>.</p>
+					
+					<p>Oh, and while you are here: Like this page on Facebook and spread the word!
+					
+					<iframe class="fb" src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fsense-camp.org&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=21&amp;appId=165170600233570" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+					</p>
+					
+					
+				</div>
+						
+			</div>
+		
+		</div>
+	
+	</body>
+	
+</html>
